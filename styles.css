@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #495057;
+}
+
+#music-list {
+    margin-top: 2em;
+}
+
+.music-item {
+    border: 1px solid #ddd;
+    padding: 1em;
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+

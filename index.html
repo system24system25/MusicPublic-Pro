@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPublic Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MusicPublic Pro</h1>
+    </header>
+    <main>
+        <section id="add-music">
+            <h2>Adicionar Música</h2>
+            <form id="music-form">
+                <div class="form-group">
+                    <label for="title">Título</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="artist">Artista</label>
+                    <input type="text" id="artist" name="artist" required>
+                </div>
+                <div class="form-group">
+                    <label for="genre">Gênero</label>
+                    <input type="text" id="genre" name="genre" required>
+                </div>
+                <div class="form-group">
+                    <label for="releaseDate">Data de Lançamento</label>
+                    <input type="date" id="releaseDate" name="releaseDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="albumCover">Capa do Álbum</label>
+                    <input type="file" id="albumCover" name="albumCover" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="musicFile">Arquivo de Música</label>
+                    <input type="file" id="musicFile" name="musicFile" accept="audio/*" required>
+                </div>
+                <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section id="music-list">
+            <h2>Lista de Músicas</h2>
+            <div id="musics"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
